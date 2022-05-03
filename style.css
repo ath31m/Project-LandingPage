@@ -5,6 +5,7 @@
     box-sizing: border-box;
     font-family: "Poppins" , sans-serif;
 }
+
 section{
     position: relative;
     width: 100%;
@@ -12,4 +13,11 @@ section{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    background: url(bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+header{
+
 }
