@@ -5,7 +5,6 @@
     box-sizing: border-box;
     font-family: "Poppins" , sans-serif;
 }
-
 section{
     position: relative;
     width: 100%;
@@ -17,7 +16,58 @@ section{
     background-size: cover;
     background-position: center;
 }
-
 header{
-
+    position: relative;
+    top: 0%;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+header .logo{
+    position: relative;
+    color: gainsboro;
+    font-size: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+header .navigation a{
+    position: relative;
+    color: gainsboro;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 1px;
+    padding: 2px 15px;
+    border-radius: 20px;
+    transition: 1.2s;
+    transition-property: background;
+}
+header .navigation a:not(:last-child){
+    margin-right: 30px;
+}
+header .navigation a:hover{
+    background: #000;
+}
+.content{
+    color:gainsboro;
+    max-width: 650px;
+    margin: 60px 100px;
+}
+.content .info h2{
+    color: #D0C2BF;
+    font-size: 55px;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+    line-height: 60px;
+    margin-bottom: 30px;
+}
+.content .info h2 span{
+    color: #F2846C;
+    font-size: 50px;
+    font-weight: 600;
+}
+
